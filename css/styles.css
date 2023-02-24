@@ -1,0 +1,55 @@
+body{
+    background-color: #EEEEEE;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.one{
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: #B4E4FF;
+    height: 700px;
+    width: 100%;
+    padding-top: 50px;
+}
+h1{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Sacramento', cursive;
+}
+.h1class{
+    font-size: 75px;
+}
+.programmer{
+    font-family: 'Labrada', serif;
+    font-size: 20px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.botton-cloud{
+    position: absolute;
+    left: 400px;
+}
+.top-cloud{
+    position: relative;
+    left: 200px;
+}
+.navbar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    top: 10px;
+}
+.navbar:hover{
+    background-color: rgb(148, 142, 142);
+    border-radius: 10px;
+}
+.profilepone{
+    width: 100px;
+    height: 100px;
+}
