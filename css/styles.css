@@ -3,6 +3,8 @@ body{
     text-align: center;
     justify-content: center;
     margin: 0px 0px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
 }
 .one{
     font-family: 'Mochiy Pop One', sans-serif;
@@ -58,9 +60,21 @@ a{
     background-color: rgb(148, 142, 142);
     border-radius: 10px;
 }
+.profile{
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+}
 .profilepone{
-    width: 10%;
+    width: 105px;
+    height: 85px;
     border-radius: 50%;
+}
+.profile_paragraph{
+    text-align: center;
+    width: 50%;
+    margin: 0px auto 0px;   
+
 }
 .skillpone{
     float: left ;
@@ -68,11 +82,13 @@ a{
     border-radius: 50%;
     margin-right: 30px;
 }
-a{
+.footer-link{
     color: #11999E;
     text-decoration: none;
+    position: relative;
+    margin: auto 5px auto 5px;
 }
-a:hover{
+.footer-link:hover{
     color:white;
 }
 .skill-row{
@@ -94,4 +110,35 @@ hr{
     border-width: 10px;
     border-color: rgb(74, 68, 68);
     margin: 15px auto 15px auto;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.btn-style{
+    background-color: #5ea4a4;
+    width: 150px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-style: none;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #19767a;
+}
+.btn-style:hover{
+    background-color: #66bfbf;
 }
