@@ -1,28 +1,37 @@
 body{
     background-color: #EEEEEE;
     text-align: center;
+    justify-content: center;
     margin: 0px 0px 0px 0px;
-    font-size: 200%;
 }
 .one{
     font-family: 'Mochiy Pop One', sans-serif;
-    background-color: #B4E4FF;
-    /* height: 650px;
-    width: 100%; */
+    background-color: #c6fffe;
+    height: 55rem;
+    width: 100%;
+    height: 100%;
     padding-top: 50px;
 }
 h1{
     margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
-
+    color: #419c9c;
+    line-height: 2;
 }
 h2{
     font-family: 'Labrada', serif;
     font-size: 2.5rem;
+    font-weight: normal;
+    color: #419c9c;
 }
 h3{
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
 }
 .botton-cloud{
     position: absolute;
@@ -33,8 +42,9 @@ h3{
     right: 300px;
 }
 .mountain{
-    position:relative;
-    /* top: -3%; */
+    margin: auto;
+    position: relative;
+    display: flex;
 }
 .navbar{
     position: absolute;
@@ -42,13 +52,46 @@ h3{
     height: 50px;
     right: 10px;
     top: 10px;
+    transition: 0.3s;
 }
 .navbar:hover{
     background-color: rgb(148, 142, 142);
     border-radius: 10px;
 }
 .profilepone{
-    width: 100px;
-    height: 100px;
+    width: 10%;
     border-radius: 50%;
+}
+.skillpone{
+    float: left ;
+    width: 25%;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.ngayotetheepone{
+    float: right ;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+hr{
+    margin: 0 auto 10px 0;
+    border-style: none none dotted none;
+    width: 20%;
+    border-width: 10px;
+    border-color: rgb(74, 68, 68);
+    margin: 15px auto 15px auto;
 }
